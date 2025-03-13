@@ -2,7 +2,7 @@ import Login from "./Login";
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'  
-import fondo from '../imgs/fondo_login.png' 
+import '../styles/login.css';
 
 function LoginFull() {
     return (
