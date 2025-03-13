@@ -17,3 +17,13 @@
     justify-content: center;
     align-items: center;
 }
+
+.small-image {
+    width: 100px; /* Ajusta el tamaño según tus necesidades */
+    height: auto;
+}
+
+.card-home {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo negro medio transparente */
+    color: white; /* Color del texto blanco para mejor contraste */
+}
