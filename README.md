@@ -63,7 +63,4 @@ Para ejecutar este proyecto en tu entorno local, sigue estos pasos:
    - Uso de `.map()` para iterar sobre listas de datos.
    - Renderizado condicional basado en estados y propiedades.
 
-## Conclusión
-
-Este proyecto fue desarrollado siguiendo las mejores prácticas de React y asegurando modularidad en los componentes. Cualquier mejora o sugerencia es bienvenida.
 
