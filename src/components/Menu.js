@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
+import { FormattedMessage } from 'react-intl';
 
 export default function Menu() {
     const [menu, setMenu] = useState([]);
@@ -18,7 +19,7 @@ export default function Menu() {
 
     return (
         <div>
-            <h1>Menu</h1>
+            <h1><FormattedMessage id="menu" defaultMessage="Menu" /></h1>
             {menu.length > 4 && (
                 <Carousel>
                     {menu.slice(4, 7).map((item, index) => (
@@ -45,5 +46,5 @@ export default function Menu() {
                 ))}
             </Row>
         </div>
-    )
+    );
 }

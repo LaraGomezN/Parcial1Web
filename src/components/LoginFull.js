@@ -16,6 +16,9 @@ function LoginFull() {
                 </Col>
             </Row>
         </div>
+
+
+
     );
 }
 

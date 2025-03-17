@@ -3,6 +3,7 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Carousel from 'react-bootstrap/Carousel';
+import { FormattedMessage } from 'react-intl';
 
 export default function Cart() {
     const [cart, setCart] = useState([]);
@@ -18,7 +19,7 @@ export default function Cart() {
 
     return (
         <div>
-            <h1>Cart</h1>
+            <h1><FormattedMessage id="cart" defaultMessage="Cart" /></h1>
             {cart.length > 4 && (
                 <Carousel>
                     {cart.slice(4, 7).map((item, index) => (
@@ -45,5 +46,5 @@ export default function Cart() {
                 ))}
             </Row>
         </div>
-    )
+    );
 }
